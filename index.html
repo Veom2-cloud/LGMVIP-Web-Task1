@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mart</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Roboto:wght@300&display=swap");
+    </style>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top">
+        <a class="navbar-brand" href="index.html">Mart</a>
+        <a class="navbar-brand1" href="#h1">Home</a>
+        <a class="navbar-brand1" href="#h2">Projects</a>
+        <a class="navbar-brand1" href="#h3">Pricing</a>
+        <a class="navbar-brand1" href="#h4">Team</a>
+        <a class="navbar-brand1" href="#h5">Blog</a>
+        <a class="navbar-brand1" href="#h6">Contact</a>
+      </div>
+
+      <div class="p1">
+        <div id="c1">
+          <h1>
+            One page promising to fill <br />
+            all your needs!
+          </h1>
+        </div>
+
+        <div id="c2">
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin <br />
+            gravida nibh velit auctor aliquet
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-btns">
+        <button type="button" class="btn-trans">Learn More</button>
+        <button type="button" class="btn-trans">Learn More</button>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="content1" id = "h1">
+        <div class="section-heading">Welcome To Mart</div>
+
+        <div id="c3">
+          <span id="idea1">
+            This is photoshop's version of lorem ipsum. Prongravda nibh velveit
+            auctor aliquet . Aenean sol-lictudin , llorem quis bibendum auctor.
+          </span>
+          <span id="idea2">
+            <img src="resources/im1.jpg" width="150px" height="150px" />
+          </span>
+        </div>
+
+        <div id="c4">
+          <span id="idea3">
+            <div class="i1">
+              <img src="resources/im3.jpg" width="100px" height="100px" />
+            </div>
+            <div class="t1">Lorem Ipsum</div>
+            <div class="t2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="hero-btn">
+              <button type="button" class="btn-trans">Learn More</button>
+            </div>
+          </span>
+
+          <span id="idea4">
+            <div class="i1">
+              <img src="resources/im4.jpg" width="100px" height="100px" />
+            </div>
+            <div class="t1">Dolor Sit</div>
+            <div class="t2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="hero-btn">
+              <button type="button" class="btn-trans">Learn More</button>
+            </div>
+          </span>
+
+          <span id="idea4">
+            <div class="i1">
+              <img src="resources/im5.jpg" width="100px" height="100px" />
+            </div>
+            <div class="t1">Consectecture</div>
+            <div class="t2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="hero-btn">
+              <button type="button" class="btn-trans">Learn More</button>
+            </div>
+          </span>
+        </div>
+
+        <hr class="new4" />
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="content2" id="h2">
+        <div class="section-heading">Projects</div>
+
+        <div class="c5">
+          <span class="idea6">
+            <div class="p3">
+              <img src="resources/p1.jpg" width="310px" height="400px" />
+            </div>
+            <div class="p4">PROJECT NAME</div>
+            <div class="p5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="p6">
+              <button type="button" class="p7">LAUNCH CASE STUDY</button>
+            </div>
+          </span>
+
+          <span class="idea6">
+            <div class="p3">
+              <img src="resources/p2.jpg" width="300px" height="400px" />
+            </div>
+            <div class="p4">PROJECT NAME</div>
+            <div class="p5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="p6">
+              <button type="button" class="p7">LAUNCH CASE STUDY</button>
+            </div>
+          </span>
+          <span class="idea6">
+            <div class="p3">
+              <img src="resources/p3.jpg" width="300px" height="400px" />
+            </div>
+            <div class="p4">PROJECT NAME</div>
+            <div class="p5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="p6">
+              <button type="button" class="p7">LAUNCH CASE STUDY</button>
+            </div>
+          </span>
+
+          <span class="idea6">
+            <div class="p3">
+              <img src="resources/p5.jpg" width="300px" height="400px" />
+            </div>
+            <div class="p4">PROJECT NAME</div>
+            <div class="p5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="p6">
+              <button type="button" class="p7">LAUNCH CASE STUDY</button>
+            </div>
+          </span>
+
+          <span class="idea6">
+            <div class="p3">
+              <img src="resources/p4.jpg" width="310px" height="400px" />
+            </div>
+            <div class="p4">PROJECT NAME</div>
+            <div class="p5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <div class="p6">
+              <button type="button" class="p7">LAUNCH CASE STUDY</button>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="content3" id="h3">
+        <div class="section-heading">Pricing Table</div>
+
+        <span class="idea10">
+          <div class="f1">Standard Plan</div>
+          <div class="f3">Free</div>
+          <div class="f2">
+            2 Gb Available
+            <br />
+            16 Max Contacts
+            <br />
+            30 Messages
+            <br />
+            Disgusting Ads
+          </div>
+          <div>
+            <button type="button" class="btn-t2">Buy</button>
+          </div>
+        </span>
+
+        <span class="idea11">
+          <div class="f1">Business Plan</div>
+          <div class="f3">19$/MONTH</div>
+          <div class="f2">
+            10 Gb Available
+            <br />
+            30 Max Contacts
+            <br />
+            60 Messages
+            <br />
+            Ad free
+          </div>
+          <div>
+            <button type="button" class="btn-t2">Buy</button>
+          </div>
+        </span>
+        <span class="idea12">
+          <div class="f1">Premium Plan</div>
+          <div class="f3">14$/MONTH</div>
+          <div class="f2">
+            100 Gb Available
+            <br />
+            75 Max Contacts
+            <br />
+            120 Messages
+            <br />
+            Ad free
+          </div>
+          <div>
+            <button type="button" class="btn-t2">Buy</button>
+          </div>
+        </span>
+      </div>
+    </div>
+
+    <div class="container4">
+      <div class="content4">
+        <div class="v1">Video Projects</div>
+        <div id="o12">
+          <video width="700" height="500" controls>
+            <source src="resources/Boat_19.mp4" type="video/mp4" />
+          </video>
+          <video width="700" height="500" controls>
+            <source src="resources/Christmas_Tree_12.mp4" type="video/mp4" />
+          </video>
+          <video width="700" height="500" controls>
+            <source src="resources/Pigeon.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="container6">
+      <div class="content6" id="h4">
+        <div class="o2">Mart Team</div>
+
+        <div class="o1">
+          <div class="o7">
+            <div>
+              <img
+                src="resources/person1.jpg"
+                height="200px"
+                width="200px"
+                alt="Avatar"
+              />
+            </div>
+            <div class="o11"></div>
+            <div class="container14">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <div class="o5">TRAVIS HEAD</div>
+          <div class="o6">Creative Head</div>
+        </div>
+
+        <div class="o1">
+          <div class="o7">
+            <div>
+              <img
+                src="resources/person2.jpg"
+                height="200px"
+                width="200px"
+                alt="Avatar"
+              />
+            </div>
+            <div class="o11"></div>
+            <div class="container14">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <div class="o5">MATT ALEX</div>
+          <div class="o6">Art Director</div>
+        </div>
+        <div class="o1">
+          <div class="o7">
+            <div>
+              <img
+                src="resources/person3.jpg"
+                height="200px"
+                width="200px"
+                alt="Avatar"
+              />
+            </div>
+            <div class="o11"></div>
+            <div class="container14">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <div class="o5">CRISH PHILIPS</div>
+          <div class="o6">Senior Designer</div>
+        </div>
+        <div class="o1">
+          <div class="o7">
+            <div>
+              <img
+                src="resources/person4.jpg"
+                height="200px"
+                width="200px"
+                alt="Avatar"
+              />
+            </div>
+            <div class="o11"></div>
+            <div class="container14">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <div class="o5">JIMMY SMITH</div>
+          <div class="o6">Marketing Executive</div>
+        </div>
+        <div class="o1">
+          <div class="o7">
+            <div>
+              <img
+                src="resources/person5.jpg"
+                height="200px"
+                width="200px"
+                alt="Avatar"
+              />
+            </div>
+            <div class="o11"></div>
+            <div class="container14">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <div class="o5">Elon Musk</div>
+          <div class="o6">Seo Manager</div>
+        </div>
+        <div class="o1">
+          <div class="o7">
+            <div>
+              <img
+                src="resources/person6.jpg"
+                height="200px"
+                width="200px"
+                alt="Avatar"
+              />
+            </div>
+            <div class="o11"></div>
+            <div class="container14">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+          <div class="o5">Barack Obama</div>
+          <div class="o6">Senior Designer</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container5">
+     
+      <div class="content5" >
+        <div class="o4">Life in Mart</div>
+
+      
+        <div class="mySlides" id="l1">
+          <img src="resources/im11.jpg" style="width: 600px; height: 520px"  />
+        </div>
+      
+
+        <div class="mySlides">
+          <img src="resources/im15.jpg" style="width: 600px; height: 520px" />
+        </div>
+
+        <div class="mySlides">
+          <img src="resources/im13.jpg" style="width: 600px; height: 520px" />
+        </div>
+
+        <div class="mySlides">
+          <img src="resources/im14.jpg" style="width: 600px; height: 520px" />
+        </div>
+
+        <div class="mySlides">
+          <img src="resources/im15.jpg" style="width: 600px; height: 520px" />
+        </div>
+
+        <div class="mySlides">
+          <img src="resources/im13.jpg" style="width: 600px; height: 520px" />
+        </div>
+
+
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="resources/im11.jpg"
+              style="width: 100px; height: 100px"
+              onclick="currentSlide(1)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="resources/im15.jpg"
+              style="width: 100px; height: 100px"
+              onclick="currentSlide(2)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="resources/im13.jpg"
+              style="width: 100px; height: 100px"
+              onclick="currentSlide(3)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="resources/im14.jpg"
+              style="width: 100px; height: 100px"
+              onclick="currentSlide(4)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="resources/im15.jpg"
+              style="width: 100px; height: 100px"
+              onclick="currentSlide(5)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="resources/im13.jpg"
+              style="width: 100px; height: 100px"
+              onclick="currentSlide(6)"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container7">
+      <div class="section-heading1">Newsletter Signup</div>
+      <div class="input1">
+        <input type="text" id="fname" name="fname" />
+        <button type="button" class="btn-t3">SIGNUP</button>
+      </div>
+      <div class="btn-t4">
+        <button type="button" class="btn-t3">SIGNUP</button>
+      </div>
+    </div>
+
+    <div class="container8">
+      <div class="content8" id="h5">
+        <div class="section-heading">Blog</div>
+
+        <span class="idea13">
+          <div class="f8">
+            <img src="resources/im11.jpg" height="100px" width="200px" />
+          </div>
+          <div class="f5">
+            LOREM IPSUM DOLOR <br />
+            SIT AMET
+          </div>
+          <div class="f6">15 Jun,2015</div>
+          <div class="f7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="f9">
+            <button type="button" class="btn-th3">READ MORE</button>
+          </div>
+        </span>
+        <span class="idea13">
+          <div class="f8">
+            <img src="resources/im9.jpg" height="100px" width="200px" />
+          </div>
+          <div class="f5">
+            LOREM IPSUM DOLOR <br />
+            SIT AMET
+          </div>
+          <div class="f6">15 June,2015</div>
+          <div class="f7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="f9">
+            <button type="button" class="btn-th3">READ MORE</button>
+          </div>
+        </span>
+        <span class="idea13">
+          <div class="f8">
+            <img src="resources/im10.jpg" height="100px" width="200px" />
+          </div>
+          <div class="f5">
+            LOREM IPSUM DOLOR <br />
+            SIT AMET
+          </div>
+          <div class="f6">15 June,2015</div>
+          <div class="f7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="f9">
+            <button type="button" class="btn-th3">READ MORE</button>
+          </div>
+        </span>
+      </div>
+    </div>
+
+    <div class="container9">
+      <div class="content9" id="h6">
+        <div class="contact1">
+          <iframe
+            id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13998.495336215938!2d77.35826147497558!3d28.70089708617235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb7855ae5741%3A0x83b0af9f21e76bf4!2sHindon%20Domestic%20Airport!5e0!3m2!1sen!2sin!4v1639934024033!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="contact2">
+          <form>
+            <div style="font-weight: bold; font-size: 45px; color: black">
+              Contact
+            </div>
+            <label for="Name">Name</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="Email">Email Address</label><br />
+            <input type="text" id="email" name="email" /><br />
+            <label for="Subject">Subject</label><br />
+            <input type="text" id="subject" name="subject" /><br />
+            <label for="Message">Message</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="10"
+              cols="50"
+            ></textarea>
+            <br />
+            <input id="s1" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container8">
+      <div class="content8">
+        <span class="idea133">
+          <div class="f10">Office Address</div>
+          <div class="f11">
+            LOREM IPSUM DOLOR , 234 <br />
+            1200 Consecutive <br />
+            Adispeching
+          </div>
+        </span>
+
+        <span class="idea133">
+          <div class="f14">Follow Us</div>
+          <div class="f11">
+            <img src="resources/twitter.png" width="10px" height="10px" />
+            <img src="resources/youtube.png" width="15px" height="15px" />
+            <img src="resources/telegram.png" width="15px" height="15px" />
+            <br />
+            <img src="resources/linkedin.png" width="15px" height="15px" />
+            <img src="resources/instagram.png" width="15px" height="15px" />
+            <img src="resources/facebook.png" width="15px" height="15px" />
+          </div>
+        </span>
+        <span class="idea133">
+          <div class="f10">Contact US</div>
+          <div class="f11">
+            + 123 456 789 <br />
+            mart@skype <br />
+            enquiry@mart.com
+          </div>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

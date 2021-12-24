@@ -1,0 +1,731 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-trans {
+  cursor: pointer;
+  outline: 0;
+  margin-top: 30px;
+  background-color: yellow;
+  font-size: 16px;
+  padding: 10px 16px;
+}
+
+.hero-btns {
+  margin-right: 480px;
+}
+
+.btn-trans:hover {
+  background-color: purple;
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("resources/image4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 650px;
+}
+
+.top {
+  position: relative;
+  padding-top: 10px;
+}
+
+#c1 > h1 {
+  margin-top: 100px;
+  padding-left: 400px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#c2 > p {
+  margin-top: 25px;
+  padding-left: 400px;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  margin-right: 100px;
+  font-size: 30px;
+}
+
+.navbar-brand1 {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: white;
+}
+
+.container1 {
+  height: fit-content;
+  text-align: center;
+  width: 100%;
+}
+
+.content1 {
+  height: fit-content;
+  width: max-content;
+  display: inline block;
+  margin: 0 auto;
+}
+
+.section-heading {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#c3 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#idea1 {
+  display: inline-block;
+  width: 350px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#idea2 {
+  display: inline-block;
+  width: 180px;
+  vertical-align: 55px;
+}
+
+#idea3 {
+  display: inline-block;
+  width: 160px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#idea4 {
+  margin-left: 60px;
+  display: inline-block;
+  width: 160px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+hr.new4 {
+  border: 0.5px solid rgb(168, 166, 166);
+}
+
+.t1 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.t2 {
+  text-align: center;
+  font-size: 13px;
+}
+
+.i1 {
+  text-align: center;
+}
+
+.hero-btn {
+  text-align: center;
+}
+
+.container2 {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+}
+
+.content2 {
+  height: fit-content;
+  display: inline block;
+  margin: 0;
+  width: 100%;
+}
+
+.p9 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.p4 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: medium;
+  color: black;
+}
+
+.p5 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 13px;
+  width: 250px;
+}
+
+.p7 {
+  margin-left: 20px;
+  cursor: pointer;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  font-size: 10px;
+  padding: 7px 10px;
+  color: rgb(8, 5, 5);
+  font-weight: bold;
+}
+
+.p7:hover {
+  background-color: purple;
+  color: white;
+}
+
+.c5 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+  background-color: rgb(216, 219, 221);
+}
+
+.content3 {
+  height: fit-content;
+  width: max-content;
+  display: inline block;
+  margin: 0 auto;
+}
+
+.container3 {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+}
+
+.idea6 {
+  width: fit-content;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.idea6:hover {
+  background-color: rgb(255, 255, 85);
+}
+
+.f1 {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.f2 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.f3 {
+  text-align: center;
+  padding-top: 10px;
+  color: grey;
+  font-size: 15px;
+}
+
+.idea10 {
+  display: inline-block;
+  width: 250px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.idea11 {
+  display: inline-block;
+  width: 250px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.idea12 {
+  display: inline-block;
+  width: 250px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn-t2 {
+  cursor: pointer;
+  outline: 0;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: yellow;
+  font-size: 16px;
+  padding: 8px 40px;
+  color: black;
+}
+
+.btn-t2:hover {
+  background-color: purple;
+  color: white;
+}
+
+.container4 {
+  height: 700px;
+  width: 100vw;
+
+  text-align: center;
+  background-color: purple;
+}
+
+.content4 {
+  height: 700px;
+  width: 100%;
+
+  display: inline block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#o12{
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin-left: -20vw;
+
+}
+
+#o12 > video{
+  margin: 10px;
+}
+
+.v1 {
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+}
+
+.container6 {
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.content6 {
+  height: 700px;
+  width: max-content;
+  display: inline block;
+  margin: 0 auto;
+}
+
+.o5 {
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+  color: black;
+}
+
+.o6 {
+  margin-top: 5px;
+  color: grey;
+}
+
+.container7 {
+  position: relative;
+  text-align: center;
+  background-image: url("resources/im8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 250px;
+}
+
+.o2 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.o1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.o3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.o7{
+position: relative;
+border-radius: 50%;
+overflow: hidden;
+width: 200px;
+height: 200px;
+margin: auto;
+
+}
+
+
+.o7:first-child{
+z-index: 1;
+position: relative;
+
+}
+
+.o3 > div > img {
+  border-radius: 50%;
+}
+
+.o11{
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: lightpink;
+  visibility: hidden;
+}
+
+
+.o7:hover >.container14,.o7:hover >.o11 {
+visibility: visible;
+}
+
+.container14{
+  
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  visibility: hidden;
+
+}
+
+.container14 > a {
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.section-heading1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.input1 {
+  height: 40px;
+}
+
+#fname {
+  font-size: 30px;
+  height: 40px;
+}
+
+.btn-t3 {
+  position: absolute;
+  cursor: pointer;
+  outline: 0;
+  margin-top: px;
+  background-color: yellow;
+  font-size: 16px;
+  padding: 10px 16px;
+  border-width: 1px;
+}
+
+.btn-t3:hover {
+  background-color: purple;
+  color: white;
+}
+
+.btn-t4 {
+  margin-left: 373px;
+  margin-top: 15px;
+}
+
+.container8 {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+}
+
+.content8 {
+  height: fit-content;
+  width: max-content;
+  display: inline block;
+  margin: 0 auto;
+}
+
+.idea13 {
+  display: inline-block;
+  width: 250px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.f8 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.f5 {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.f6 {
+  text-align: center;
+  color: grey;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.f7 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.f9 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-th3 {
+  cursor: pointer;
+  outline: 0;
+  background-color: yellow;
+  font-size: 16px;
+  padding: 15px 16px;
+  border-width: 1px;
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-th3:hover {
+  color: white;
+  background-color: purple;
+}
+
+.container9 {
+  height: fit-content;
+  width: 100%;
+}
+
+.content9 {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.contact1 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+  height: auto;
+}
+.contact2 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+  background-color: rgb(238, 211, 58);
+  height: auto;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.contact2 > form > label {
+  font-size: small;
+  font-weight: bold;
+}
+
+.contact2 > form > textarea {
+  width: auto;
+}
+
+.contact2 > form > input {
+  width: 353px;
+  height: 30px;
+}
+
+#s1 {
+  background-color: yellow;
+  font-size: small;
+  font-weight: bold;
+}
+
+#s1:hover {
+  color: white;
+  background-color: purple;
+}
+
+.div14 {
+  text-align: center;
+  align-items: center;
+}
+
+.f10 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.f14 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.f11 {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.f11 > div > img {
+  padding: 5px;
+}
+
+.f13 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  position: absolute;
+}
+
+.idea133 {
+  display: inline-block;
+  width: 250px;
+  vertical-align: 75px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.container5{
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  background-color: lightgray;
+  background-image: url("resources/im11.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+
+}
+
+.content5{
+  height: 800px;
+  width: max-content;
+  display: inline block;
+  margin: 0 auto;
+}
+
+.o4{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+   cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+ 
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
